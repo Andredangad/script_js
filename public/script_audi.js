@@ -246,7 +246,7 @@ var VpaidVideoPlayer = function() {
       })
     }
 
-    changeAudioByPoi();
+    // changeAudioByPoi();
 
     this.videoSlot_.setAttribute('src', audioToUse);  
     this.videoSlot_.play();
